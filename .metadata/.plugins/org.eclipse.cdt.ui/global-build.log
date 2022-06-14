@@ -1,0 +1,1043 @@
+16:41:42 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+16:41:46 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+16:44:49 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:46:20 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:47:17 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:208:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:51:06 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:51:50 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:209:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:52:48 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:209:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:53:11 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:209:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:57:08 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:210:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+16:59:03 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:211:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::run()’:
+../DoorControl.cpp:66:7: error: no match for ‘operator+=’ (operand types are ‘std::__cxx11::string {aka std::__cxx11::basic_string<char>}’ and ‘std::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1ll, 1000000000ll> > >}’)
+   msg += chrono::system_clock::now();
+   ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/6/string:52:0,
+                 from /usr/include/c++/6/stdexcept:39,
+                 from /usr/include/c++/6/array:39,
+                 from /usr/include/c++/6/tuple:39,
+                 from /usr/include/c++/6/functional:55,
+                 from /usr/include/c++/6/thread:39,
+                 from ../DoorInterface.h:14,
+                 from ../DoorControl.cpp:10:
+/usr/include/c++/6/bits/basic_string.h:1042:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator+=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator+=(const basic_string& __str)
+       ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:1042:7: note:   no known conversion for argument 1 from ‘std::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1ll, 1000000000ll> > >}’ to ‘const std::__cxx11::basic_string<char>&’
+/usr/include/c++/6/bits/basic_string.h:1051:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator+=(const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator+=(const _CharT* __s)
+       ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:1051:7: note:   no known conversion for argument 1 from ‘std::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1ll, 1000000000ll> > >}’ to ‘const char*’
+/usr/include/c++/6/bits/basic_string.h:1060:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator+=(_CharT) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator+=(_CharT __c)
+       ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:1060:7: note:   no known conversion for argument 1 from ‘std::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1ll, 1000000000ll> > >}’ to ‘char’
+/usr/include/c++/6/bits/basic_string.h:1073:7: note: candidate: std::__cxx11::basic_string<_CharT, _Traits, _Alloc>& std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::operator+=(std::initializer_list<_Tp>) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]
+       operator+=(initializer_list<_CharT> __l)
+       ^~~~~~~~
+/usr/include/c++/6/bits/basic_string.h:1073:7: note:   no known conversion for argument 1 from ‘std::chrono::_V2::system_clock::time_point {aka std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long long int, std::ratio<1ll, 1000000000ll> > >}’ to ‘std::initializer_list<char>’
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+17:00:49 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:227:4: error: ‘ist’ was not declared in this scope
+    ist = 4;          //öffnen
+    ^~~
+../DoorControl.cpp:231:3: error: expected primary-expression before ‘/’ token
+  */
+   ^
+../DoorControl.cpp:233:2: error: expected primary-expression before ‘return’
+  return;
+  ^~~~~~
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+17:01:07 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:234:1: error: expected ‘}’ at end of input
+ }
+ ^
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+17:01:23 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:03:59 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:04:36 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+../DoorControl.cpp: At global scope:
+../DoorControl.cpp:235:2: error: expected unqualified-id before ‘return’
+  return;
+  ^~~~~~
+../DoorControl.cpp:236:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+17:04:49 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+../DoorControl.cpp: At global scope:
+../DoorControl.cpp:235:2: error: expected unqualified-id before ‘return’
+  return;
+  ^~~~~~
+../DoorControl.cpp:236:1: error: expected declaration before ‘}’ token
+ }
+ ^
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+17:05:30 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:09:29 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:229:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:199:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:10:28 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:11:28 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:12:20 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:12:56 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:227:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:197:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:18:19 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:235:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:22:04 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:24:10 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:235:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:30:02 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:32:37 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:34:20 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:35:13 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+17:39:05 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:40:34 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:43:00 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:44:33 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:48:21 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+17:55:25 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:223:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:07:24 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:234:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:258:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:08:02 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:13:49 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:16:36 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:17:28 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:18:06 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:18:59 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:19:19 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:20:42 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:232:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:256:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:23:07 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:234:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:258:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:24:50 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:236:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:260:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:27:54 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:234:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:258:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:29:02 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:238:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:262:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:29:49 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:238:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:262:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:32:08 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:239:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:263:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:41:23 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:247:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:271:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:235:30: error: expected ‘)’ before ‘!’ token
+   while(!elg && (!lsv || !lsh! || !bm || !nta || ntz) && betriebsmodus == 3){
+                              ^
+../DoorControl.cpp:243:2: error: expected ‘)’ before ‘}’ token
+  }
+  ^
+../DoorControl.cpp:243:2: error: expected primary-expression before ‘}’ token
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+subdir.mk:24: die Regel für Ziel „DoorControl.o“ scheiterte
+make: *** [DoorControl.o] Fehler 1
+18:41:37 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:247:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:271:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:43:18 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:251:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:275:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:43:43 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:43:59 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:45:24 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:251:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:275:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:47:40 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:251:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:275:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+../DoorControl.cpp: In member function ‘void DoorControl::Automatik()’:
+../DoorControl.cpp:201:6: warning: unused variable ‘wartezeit’ [-Wunused-variable]
+  int wartezeit = 3;
+      ^~~~~~~~~
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:48:56 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+make: Für das Ziel „all“ ist nichts zu tun.
+18:56:54 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:275:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:299:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+18:57:55 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:275:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:299:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+19:01:00 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:275:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:299:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
+19:03:53 **** Incremental Build of configuration Debug for project Tuersteuerung ****
+make all 
+Building file: ../DoorControl.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++11 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"DoorControl.d" -MT"DoorControl.d" -o "DoorControl.o" "../DoorControl.cpp"
+../DoorControl.cpp:269:3: warning: "/*" within comment [-Wcomment]
+   /*
+    
+../DoorControl.cpp:293:2: warning: "/*" within comment [-Wcomment]
+  /*
+   
+Finished building: ../DoorControl.cpp
+ 
+Building target: Tuersteuerung
+Invoking: GCC C++ Linker
+g++  -o "Tuersteuerung"  ./Library/niusb6501.o  ./DoorControl.o ./DoorInterface.o ./main.o   -lncurses -lpthread -lrt -lm -lusb
+Finished building target: Tuersteuerung
+ 
